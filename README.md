@@ -6,7 +6,7 @@ Created with [ThemeCreator](https://github.com/mswift42/themecreator).
 ## Screenshots
 
 Org-mode / Clojure:
-![Screenshot](https://github.com/mswift42/silkworm-theme/raw/master/silkworm-emacs-orgclojur.png)
+![Screenshot](https://github.com/mswift42/silkworm-theme/raw/master/silkworm-emacs-orgclojure.png)
 
 Python / Ruby:
 ![Screenshot](https://github.com/mswift42/silkworm-theme/raw/master/silkworm-emacs-pythonruby.png)
