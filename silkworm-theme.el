@@ -1,4 +1,4 @@
-;;; silkworm-theme.el --- Theme 
+;;; silkworm-theme.el --- Light theme with pleasant, low contrast colors.
 
 ;; Copyright (C) 2016 , Martin Haesler
 
