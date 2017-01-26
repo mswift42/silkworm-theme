@@ -30,6 +30,6 @@ To install the theme:
 
 To use the silkworm theme when starting emacs, add this to your init.el:
 
-    (load-theme 'silkworm)
+    (load-theme 'silkworm t)
 
 
