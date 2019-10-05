@@ -47,6 +47,10 @@
        (var     "#a74f31")
        (warning "#ff1276")
        (warning2 "#ff4d12"))
+   (custom-theme-set-variables
+    'silkworm
+    `(ansi-color-names-vector
+      [,fg1 ,var ,keyword ,type ,builtin ,func ,str ,bg4]))
    (custom-theme-set-faces
    'silkworm
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
