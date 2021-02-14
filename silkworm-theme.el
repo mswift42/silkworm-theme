@@ -139,7 +139,7 @@
         `(js3-function-param-face ((,class (:foreground ,fg2))))
         `(js3-jsdoc-tag-face ((,class (:foreground ,keyword))))
         `(js3-instance-member-face ((,class (:foreground ,const))))
-	`(warning ((,class (:foreground ,warning)))) 
+	`(warning ((,class (:foreground ,warning))))
 	`(ac-completion-face ((,class (:underline t :foreground ,keyword))))
 	`(info-quoted-name ((,class (:foreground ,builtin))))
 	`(info-string ((,class (:foreground ,str))))
@@ -242,7 +242,11 @@
         `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
         `(jde-java-font-lock-modifier-face ((t (:foreground ,fg2))))
         `(jde-jave-font-lock-protected-face ((t (:foreground ,keyword))))
-        `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
+        `(jde-java-font-lock-number-face ((t (:foreground ,var))))
+        ;; line-number (emacs >=26)
+        `(line-number ((t (:inherit fringe))))
+        `(line-number-current-line ((t (:inherit fringe :foreground ,fg1))))
+        ))
 
 ;;;###autoload
 (when load-file-name
